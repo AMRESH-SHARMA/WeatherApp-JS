@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/', function(req, res) {
 
-    const url = "https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=74106e93a27465f32815749cba17180e"
+    const url = "https://api.openweathermap.org/data/2.5/forecast?id=524901&appid={apikey}"
 
     https.get(url, function(response) {
         // console.log(response, statuscode);           //return status code of api
