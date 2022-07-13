@@ -1,0 +1,10 @@
+RUN: npm init
+
+To install package.json dependencies.
+
+1. Make get request to external server ways: https(inbuilt library), axios, superagent, got etc.
+2. https return json data in bits form.
+3. use JSON.parse() method to convert bits  or buffer data type to json format.
+4. res.write() can be use multiple times BUT res.sen() is end, after that no header can be send.
+
+
